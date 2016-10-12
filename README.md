@@ -1,2 +1,15 @@
 # notepad
-my work-notepad
+homebrew 命令集
+    brew update                        #更新brew可安装包，建议每次执行一下
+    brew search php55                  #搜索php5.5
+    brew tap josegonzalez/php          #安装扩展<gihhub_user/repo>   
+    brew tap                           #查看安装的扩展列表
+    brew install php55                 #安装php5.5
+    brew remove  php55                 #卸载php5.5
+    brew upgrade php55                 #升级php5.5
+    brew options php55                 #查看php5.5安装选项
+    brew info    php55                 #查看php5.5相关信息
+    brew home    php55                 #访问php5.5官方网站
+    brew services list                 #查看系统通过 brew 安装的服务
+    brew services cleanup              #清除已卸载无用的启动配置文件
+    brew services restart php55        #重启php-fpm
