@@ -13,3 +13,5 @@
         brew services list                 #查看系统通过 brew 安装的服务
         brew services cleanup              #清除已卸载无用的启动配置文件
         brew services restart php55        #重启php-fpm
+        
+        如果你希望以mac下的apache作为web server，编译时要加 --with-apache；如果你的web server 是 nginx这类，就需要加上 --with-fpm。
