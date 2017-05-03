@@ -1,4 +1,6 @@
 # notepad
+    SSH：
+        
     MAC:
         homebrew 命令集
             brew update                        #更新brew可安装包，建议每次执行一下
@@ -30,4 +32,5 @@
     PHP：
     
     yii2：
+    
         
