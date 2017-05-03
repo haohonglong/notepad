@@ -1,4 +1,6 @@
 # notepad
+    EBNF(扩展巴科斯范式):
+        
     MAC:
         homebrew 命令集
             brew update                        #更新brew可安装包，建议每次执行一下
@@ -23,8 +25,10 @@
         ps -e | grep php        #查看 运行php进程的信息
         
         
-        ssh:    #远程登录上Linux主机
-            
+        远程操作
+            ssh 主机名@主机IP #远程登录上Linux主机
+            scp #拷贝文件
+            exit #关闭与对方的连接
             
         
         
@@ -33,6 +37,8 @@
             SELECT * FROM table WHERE `id` IN (1, 2, 3);        #查找条件符合 id=1,id=2,id=3 的 row
             UPDATE table set status=1 where `id` in(1, 2, 3);   #更新条件符合 id=1,id=2,id=3 的 row
     PHP：
+        date:
+            strtotime('+5 days');
     
     yii2：
         
