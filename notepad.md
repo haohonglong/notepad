@@ -1,6 +1,4 @@
 # notepad
-    SSH：
-        
     MAC:
         homebrew 命令集
             brew update                        #更新brew可安装包，建议每次执行一下
@@ -25,6 +23,11 @@
         ps -e | grep php        #查看 运行php进程的信息
         
         
+        ssh:    #远程登录上Linux主机
+            
+            
+        
+        
     MYSQL：
         IN 的语法实例：
             SELECT * FROM table WHERE `id` IN (1, 2, 3);        #查找条件符合 id=1,id=2,id=3 的 row
@@ -32,5 +35,4 @@
     PHP：
     
     yii2：
-    
         
