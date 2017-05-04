@@ -24,7 +24,7 @@
         netstat -an | grep 80   #查看被监听 80端口信息
         ps -e | grep php        #查看 运行php进程的信息
         
-        
+        aptitude #使用方式和apt-get类似,优点:可以自动删除依赖的包
         远程操作
             ssh 主机名@主机IP #远程登录上Linux主机
             scp #拷贝文件
